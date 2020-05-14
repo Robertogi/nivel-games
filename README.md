@@ -1,2 +1,2 @@
 # nivel-games
- primeiro arquivo em html criado no curso de programador web
+ primeiro site em linguagem HTML criado no curso de programador web
