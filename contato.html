@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nível Games</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="icon" href="imagens/favicon.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nível Games</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="consoles.html">Consoles</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="multimidia.html">Multimídias</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="horario.html">Horário</a></li>
+                <li><a href="comochegar.html">Como Chegar</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1 class="titulo">Contato</h1>
+            <form method="post" action="resposta.html">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                        <label for="nome" class="esquerda">Nome:</label>
+                        <input class="direita" type="text" required name="nome" id="nome" placeholder="Digite seu nome completo" />
+                    </div>
+                    <div>
+                        <label for="email" class="esquerda">E-mail</label>
+                        <input class="direita" type="email" required id="email" placeholder="Digite seu email" />
+                    </div>
+                    <div>
+                        <label for="idade" class="esquerda">Idade</label>
+                        <input class="direita" type="number" min="0" max="150" placeholder="Digite sua idade" />
+                    </div>
+                    <div>
+                        <label for="" class="esquerda">Sexo</label>
+                        <div class="direita">
+                            <input type="radio" id="m" name="sexo" checked />
+                            <label for="m">Masculino</label>
+                            <input type="radio" id="f" name="sexo" />
+                            <label for="f">Feminino</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="telefone" class="esquerda">Telefone</label>
+                        <input class="direita" type="tel" id="telefone" required placeholder="Digite o seu telefone" />
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Mensagem</legend>
+                    <div>
+                        <label for="assunto" class="esquerda">Assunto</label>
+                        <select class="direita" id="assunto" required>
+                            <option value="">Críticas</option>
+                            <option value="">Sugestões</option>
+                            <option value="">Compras</option>
+                            <option value="">Outros</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mensagem" class="esquerda">Mensagem</label>
+                        <textarea style="resize: none" class="direita" id="mensagem" placeholder=""></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <p>Rua Barcelos Domingos, 150</p>
+            <p>(21) 2412-2165</p>
+        </footer>
+    </div>
+</body>
+</html>
